@@ -1,0 +1,90 @@
+To create menu icon for responsive menu use this index.html:
+
+ <nav class="topnav-container">
+        <!-- <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+        <label for="nav__checkbox" class="nav__toggle">
+            <i class="menu fas fa-bars" id="menu"></i>
+            <i class="close fas fa-times" id="close"></i>
+        </label> -->
+        <ul class="topnav" id="myTopnav">
+            <li class="topnavitem"><a href="#home" >Home</a> </li>
+            <li class="topnavitem"><a href="#about" >About</a> </li>
+            <li class="topnavitem"><a href="#projects" >Projects</a> </li>
+            <li class="topnavitem"><a href="#skills" >Skills</a> </li>
+            <li class="topnavitem"><a href="#contact" >Contact</a> </li>
+        </ul>
+    </nav>
+
+Then add this CSS to get the hamburger menu on phone with X toggle function:
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .topnav-container{
+    border-bottom: solid 1px gold;
+    font-family: 'Montserrat', sans-serif; 
+    background-color:rgba(31, 31, 31, 0.8); 
+} */
+
+/* .nav__toggle{
+    position: absolute;
+    cursor: pointer;
+    margin: 0px 1rem;
+    right: 0px;
+} */
+
+label i {
+    width: 1.5rem;
+    font-size: 2em;
+    color: white;
+}
+
+/* #close{
+    display: none;
+}
+
+#menu{
+    margin-top: 0.2rem;
+}
+
+.nav__checkbox{
+    display: none;
+} */
+
+.topnav{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: left;
+    margin: 1rem;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.topnavitem{
+    list-style: none;
+    display: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    /* font-weight: bold; */
+}
+
+/* #nav__checkbox:checked ~ ul.topnav li{
+    display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle #close{
+    display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle #menu{
+    display: none;
+} */
