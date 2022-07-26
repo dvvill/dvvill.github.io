@@ -217,6 +217,10 @@ body{
     border: solid 1px gold;
     border-radius: 5px;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .btn{
     background-color: lightgrey;
     border: solid 1px black;
@@ -236,9 +240,9 @@ body{
     color: white;
     text-align: center;
     background-color: black;
-    border: solid 1px gold;
+    /* border: solid 1px gold; */
     border-radius: 5px;
-    padding-top: 1.5%;
+    /* padding-top: 1.5%; */
 }
 .projects-section3{
     width: 390px;
