@@ -252,9 +252,9 @@ a{
     color: white;
     text-align: center;
     background-color: black;
-    border: solid 1px gold;
+    /* border: solid 1px gold; */
     border-radius: 5px;
-    padding-top: 1.5%;
+    /* padding-top: 1.5%; */
 }
 
 
